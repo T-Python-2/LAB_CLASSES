@@ -49,11 +49,11 @@ class Vehicle:
 class Bus(Vehicle):
 
     def drift(self):
-        print("the Bus is not drifting")
+        print(f"the {self.get_name()} is not drifting")
 
 class Truck(Vehicle):
     def carry_cargo(self):
-        print(f"the Truck is not carrying cargo")
+        print(f"the {self.get_name()} is not carrying cargo")
 
 
 bus1 = Bus("Bus Brand","Bus 1","White",25,"2345ABC")
@@ -61,6 +61,7 @@ bus1 = Bus("Bus Brand","Bus 1","White",25,"2345ABC")
 bus1.carry_cargo()
 bus1.drift()
 bus1.drive()
+print()
 
 truck1 = Truck("Truck Brand","Truck1","Black",2,"1234DFG")
 
