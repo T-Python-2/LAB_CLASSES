@@ -14,9 +14,9 @@
 - drive()
   prints "the vehicle_name is driving!"
 - drift()
-  prints "the vehicle_name is drifting !!" or something else dpending on the class.
+  prints "the vehicle_name is drifting !!" or something else depending on the class.
 - carry_cargo()
-  prints "the vehicle_name is carrying cargo !!" or something else dpending on the class
+  prints "the vehicle_name is carrying cargo !!" or something else depending on the class
 
 
 ### for each of the properties do a setter & getter (encabsulate the data).
